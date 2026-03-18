@@ -17,8 +17,8 @@ jobs:
 
       - name: Build image
         run: |
-          docker build -t ghcr.io/${{ github.repository_owner }}/postiz-custom:latest .
+          docker build -t ghcr.io/benjcrpy/postiz-custom:latest .
 
       - name: Push image
         run: |
-          docker push ghcr.io/${{ github.repository_owner }}/postiz-custom:latest
+          docker push ghcr.io/benjcrpy/postiz-custom:latest
